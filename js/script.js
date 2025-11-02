@@ -24,7 +24,7 @@ function crearTarjeta(pelicula) {
   return tarjeta;
 }
 
-// Recorrer las películas
+// Recorrer las película
 
 for (let i = 0; i < peliculas.length; i++) {
   let peli = peliculas[i]; 
