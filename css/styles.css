@@ -24,8 +24,8 @@ h2 {
   gap: 20px;
 }
 
-/* Tarjeta individual de película */
-
+/* Tarjeta individual de películas */
+ 
 .pelicula {
   display: flex;
   flex-direction: column;
