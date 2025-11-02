@@ -16,3 +16,39 @@ h2 {
 }
 
 
+/* Contenedor de películas */
+
+.genero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Tarjeta individual de película */
+
+.pelicula {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 140px; 
+  text-align: center;
+}
+
+/* Imagen */
+.pelicula img {
+  width: 140px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Título */
+.pelicula p {
+  font-size: 13px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin: 0;
+}
